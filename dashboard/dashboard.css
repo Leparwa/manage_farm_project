@@ -1,0 +1,96 @@
+    body {
+        margin: 0;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 10%;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 130%;
+        overflow: auto;
+        position: absolute;
+        top: 35px;
+    }
+    
+    li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+    
+    .dashboard {
+        margin-left: 10%;
+    }
+    
+    h2 {
+        background-color: #f1f1f1;
+    }
+    
+    .cow img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    .wrap {
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+        width: 80%;
+        border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -ms-border-radius: 18px;
+        -o-border-radius: 18px;
+        background-color: rgba(106, 116, 108, 0.2);
+    }
+    
+    #output,
+    h6 {
+        background-color: green;
+        padding-bottom: 10px;
+        border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -ms-border-radius: 18px;
+        -o-border-radius: 18px;
+        text-align: center;
+        width: 80%;
+        font-size: 30px;
+    }
+    
+    .body {
+        font-size: 24px;
+    }
+    
+    #p1 {
+        display: none;
+        border: 1px solid grey;
+        box-shadow: 10px 10px 5px grey;
+    }
+    
+    #p2 {
+        display: none;
+        border: 1px solid grey;
+        box-shadow: 10px 10px 5px grey;
+    }
+    
+    #p3 {
+        display: none;
+        border: 1px solid grey;
+        box-shadow: 10px 10px 5px grey;
+    }
+    
+    #p4 {
+        display: none;
+        border: 1px solid grey;
+        box-shadow: 10px 10px 5px grey;
+    }

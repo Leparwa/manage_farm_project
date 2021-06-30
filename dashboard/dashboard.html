@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="dashboard.js"></script>
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <h2 class="text-center">DASHBOARD</h2>
+    <div>
+        <ul>
+            <li>
+                <a href="#owned">Animal Owned</a>
+            </li>
+            <li>
+                <a href="#history">Animal History</a>
+            </li>
+            <li>
+                <a href="#revenue">Daily Revenue</a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="container-fluid">
+        <div class="dashboard">
+            <p>The farm contains 130 cows where they are divided in ranches.The farmer will ba able to monitor the progress of the cows in each ranch </p>
+            <div id="owned">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Ranch1</th>
+                            <th scope="col">Ranch2</th>
+                            <th scope="col">Ranch3</th>
+                            <th scope="col">Ranch4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Number of cows</th>
+                            <td>35</td>
+                            <td>25</td>
+                            <td>30</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">cost of producing
+                                <br>One litter of milk(Ksh)</th>
+                            <td>25</td>
+                            <td>25</td>
+                            <td>25</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Average milk per ranch</th>
+                            <td>100</td>
+                            <td>120</td>
+                            <td>150</td>
+                            <td>180</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <div id="history">
+                    <h3 class="text-center">Animal History</h3>
+                    <hr>
+
+                    <div class="cow d-flex justify-content-center justify-content-around gap-1">
+                        <div class="col-3">
+                            <img src="images/AYRSHIRE.jpg" alt="Hostein cow" id="img1">
+                            <div>
+                                <p id="p1">The Ayrshire cattle are of very good behavior and temperament. They are most dominant, least attacked by their group-mates and least susceptible to group change. They are known for their hardiness and their ability to convert
+                                    grass into milk efficiently. The breed’s strengths today are traits of easy calving and longevity. These cattle are very good for milk production as compared to their size. Milk production of a cow can reach 9,100 kg
+                                    or greater per annum.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <img src="images/BROWN-SWISS.jpg" alt="Jersey" id="img2">
+                            <div>
+                                <p id="p2">The Brown Swiss has one of the highest annual milk yields. The milk is high in both protein (around 3.5%) and butter fat (around 4%). This makes the breed an excellent choice for both milk and cheese producers. Indeed,
+                                    Brown Swiss cattle produce the best fat to protein ratio of any dairy breed for most cheese production. Brown Swiss continue producing in the herd until they are 12 to 15 years old. They mature later than many other
+                                    breeds and their inherent strength allows them to lead long, productive lives.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <img src="images/HOLSTEIN-COW.jpg" alt="Brown swiss" id="img3">
+                            <div>
+                                <p id="p3">The Holstein Friesian breed is world-renowned for its unparalleled milk production value. Holsteins have an average lactation period of 305 days a year, with up to 18,000 liters of milk per lactation period. Their milk
+                                    content is 3.82% fat and 3.21% protein. Top producing individuals, milked three times daily, have been known to produce over 30,000 kg of milk in a 365 day period. Holstein breeding are particularly fast growing, mature
+                                    very early, and are easy to care for. When managed well, they have excellent fertility rates.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-3">
+                            <div>
+                                <img src="images/JERSEY-COW.jpg" alt="Ayrshire" id="img4">
+                                <div>
+                                    <p id="p4">Jersey cows are outstanding milk producers, producing more milk per each pound of body weight than other types of bovines. The record for milk production by one cow is held by a Jersey. The Jersey produces more milk
+                                        on less feed than other dairy breeds, eating about 80 percent of a Holstein's normal daily intake. Jersey cows have the longest productive life in the American dairy industry, generally about three years.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="revenue">
+                    <hr>
+                    <h3 class="text-center">Daily Revenue</h3>
+
+                    <h4>Use the form to Calculate total revenue</h4>
+                    <div class="wrap">
+                        <form id="new-contact">
+                            <div class="form-group mb-4">
+                                <label for="number">Ranch1:</label>
+                                <input type="number" class="form-control" id="ranch1" placeholder="Enter amount of milk" name="ranch1" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="number">Ranch2:</label>
+                                <input type="number" class="form-control" id="ranch2" placeholder="Enter amount of milk" name="ranch2" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="number">Ranch3:</label>
+                                <input type="number" class="form-control" id="ranch3" placeholder="Enter amount of milk" name="ranch3" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="number">Ranch4:</label>
+                                <input type="number" class="form-control" id="ranch4" placeholder="Enter amount of milk" name="ranch4" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="number">Days:</label>
+                                <input type="number" class="form-control" id="day" placeholder="Enter number of days" name="day" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="number">Price of Milk per litre:</label>
+                                <input type="number" class="form-control" id="price" placeholder="Enter price of milk" name="ranch1" required>
+                            </div>
+
+                            <button type="submit" class="btn btn-success mt-4">Check
+                                Your Daily Produce</button>
+                            <br>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <h6 id="output">
+            </h6>
+            <!-- <h6 id="output1">
+            </h6>
+            <h6 id="output2">
+            </h6> -->
+        </div>
+    </div>
+
+</body>
+
+
+</html>
