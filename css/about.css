@@ -1,0 +1,147 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url("../images/land3.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 1050px;
+    padding: 50px;
+
+}
+
+.link a {
+
+    padding: 14px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.link a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+
+}
+
+#underline {
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.4);
+    text-decoration-thickness: 5px;
+}
+
+#icon {
+    font-size: 70px;
+
+
+}
+
+h2 {
+    padding: 30px;
+    font-size: 80px;
+    font-family: 'Viaoda Libre', cursive;
+    
+}
+
+#what-we-do {
+    margin-top: 40px;
+  }
+  #row {
+    text-align: center;
+  }
+  h3{
+      color: whitesmoke;
+  }
+  h2,h3 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  span {
+    text-transform: uppercase;
+  }
+  .info {
+    display: none;
+  }
+.more{
+    height: auto;
+    
+}
+.info P{
+    color: black;
+    background-color: wheat;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    padding: 20PX;
+    border-radius: 10PX;
+    font-size: 20PX;
+}
+.space{
+    padding-top: 100px;
+}
+#container{
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+    font-family: "Sofia", sans-serif;
+    
+   
+}
+
+#container p {
+    padding: 20px;
+    font-size: 30px;
+    color: #edf2f4;
+    font-weight: 500;
+    font-family: "Sofia", sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+#container p:hover {
+  
+    color: #edf2f4;
+    
+    
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+#button {
+    padding: 14px 80px;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: 900;
+    border: white;
+    border-radius: 20px;
+    color: white;
+}
+
+#button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.box{
+    padding: 20px;
+    padding-top: 20px;
+}
+#box{
+    border-right : 2px solid green;
+    height: 200px;
+}
+.style{
+    font-family: "Sofia", sans-serif;
+    padding-top: 200px;
+    font-size: 30px;
+    font-family: 'Viaoda Libre', cursive;
+   
+
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+    border-radius: 20px;
+
+}
+
+
+

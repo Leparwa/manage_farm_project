@@ -1,0 +1,96 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url("../images/l1.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 1050px;
+    padding: 50px;
+
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: auto;
+
+}
+
+.link a {
+
+    padding: 14px 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+
+.link a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+
+}
+
+#underline {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    text-decoration-thickness: 5px;
+}
+
+
+#button {
+    padding: 14px 80px;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: 900;
+    border: white;
+    border-radius: 20px;
+    color: white;
+}
+
+#button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+h2 {
+    padding: 30px;
+    font-size: 80px;
+    font-family: 'Viaoda Libre', cursive;
+
+}
+
+#contact{
+    margin: 60px 20% 20px 20%;
+    padding: 30px;
+}
+label{
+    font-size: 20px;
+    /* font-weight: 900; */
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+::placeholder{
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+
+}
+
+#container {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 500;
+    font-family: "Sofia", sans-serif;
+
+
+}
+
+#container {
+    padding-top: 80px;
+
+
+}
