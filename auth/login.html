@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form class="loginPage" name="login"  onsubmit="return false">
+        <h1>Login</h1>
+        <label for="username"><b> Enter username:</b></label><br>
+        <input type="text" placeholder="Username" id="username" name="username" autocomplete="email" class="inputField" required><br>
+        <label for="psw"><b>Password</b></label><br>
+        <input type="password" placeholder="Password" autocomplete="current-password" id="password" name="psw" class="inputField" required><br>
+        <button type="submit" id="btn"><a href="">Login</a></button>
+        <button type="submit" id="cancel"><a href="index.html">Close</a></button><br>
+        <p class="create_acc_paragraph">Don't have an account? <a href="signin.html">Create account</a></p>
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
