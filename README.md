@@ -26,7 +26,7 @@
 |    |   |    |    | 
 | ---   |  ---     | ---  | --- |
 | ![Portfolio](images/joseph.jpeg) | ![Portfolio](images/female.jpeg)  | ![Portfolio](images/boy.jpeg))| 
-|  [**Kelvin Leparwa**](https://moringaschool.com/) |  [**Mary Njeri**](https://moringaschool.com/)  |  [**Joseph Nyaga**](https://moringaschool.com/)|  
+|  [**Kelvin Leparwa**](https://moringaschool.com/) |  [**Mary Njeri**](https://moringaschool.com/)  |  [**David Njungo**](https://moringaschool.com/)|  
 
 
 |    |   |    |    | 
