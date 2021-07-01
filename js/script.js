@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $(".icon").click(function(){
-        $(this).siblings().toggle();
+        $(this).siblings().toggle(1500);
     });
     $(".info").click(function(){
     $(this).siblings().toggle();

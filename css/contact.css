@@ -7,7 +7,7 @@ body {
     background-image: url("../images/l1.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 1050px;
+    height: 1200px;
     padding: 50px;
 
 }
@@ -93,4 +93,75 @@ h2 {
     padding-top: 80px;
 
 
+}
+.btb{
+    padding: 15px 50px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: whitesmoke;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+.btbX {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0px;
+    font-size: 20px;
+}
+.btbX a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px 40px;
+    
+}
+
+.btbX a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    
+}
+
+
+/* log in */
+
+input[type=text],
+input[type=password] {
+       width: 100%;
+       padding: 8px;
+       margin: 8px 0;
+       border: 1px solid white;
+       border-radius: 18px;
+   }
+.login{
+    background-color: grey;
+    width: 50%;
+    padding: 30px;
+    border-radius: 18px;
+    opacity: 0.8;
+    position: relative;
+    left: 25%;
+    margin-top: 50px;
+    height: 30%;
+    top: 20%;
+}
+#login a{
+    text-decoration: none;
+    color: white;  
+}
+#login{
+    border-radius: 18px;
+    padding: 18px 40px;
+    background-color: black;
+}
+.create_acc_paragraph a{
+    text-decoration: none;
+    font-size: 25px;
+    
+
+}
+.loginPage{
+    height: 500px;
+    
 }
