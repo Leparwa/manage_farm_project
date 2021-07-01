@@ -7,9 +7,9 @@
     <title>portal</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="./account.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-</head>
+  </head>
 <body>
     <div class="sidebar-container">
         <div class="sidebar-logo">
@@ -52,25 +52,56 @@
             <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
             
              
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card bg-danger shadow">
                         <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <i class="fas fa-vector-square fa-3x text-primary"></i>
+                            </div>
+                            <div class="col-md-6">
+                              <h3 class="text-white ml-5">NO OF RANCHES <small>4</small></h3>
 
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            
+                    <div class="card bg-success shadow">
+                        <div class="card-body d-flex justify-content-start">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <span class="pr-5">
+                                <i class="fas fa-wallet fa-3x text-danger"> 
+                                </i> 
+                              </span>
+                            </div>
+                            <div class="col-md-6">
+                              <h3 class="text-white ml-5">DAILY REVENUE <small>ksh 30000</small></h3>
+
+                            </div>
+                          </div>
+                         
+                      
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card bg-warning">
                         <div class="card-body">
-                            
+                          <div class="row">
+                            <div class="col-md-6">
+                              <span>
+                                <i class="fas fa-cow fa-3x text-success"></i>
+                              </span>
+                            </div>
+                            <div class="col-md-6">
+                              <h3 class="text-white ml-5">NO ANIMALS <small>50</small></h3>
+
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -78,10 +109,45 @@
             <div class="row">
               <div class="col-12">
                 <div class="mb-3">
-                  <h3 style="color: chocolate;">DAILY RECORDS</h3>
-                  <hr style="width: 37%; font-weight: bold; color: blue; margin-top: 1px;">
+                  <h3 style="color: chocolate;" class="d-flex justify-content-center">FARM RECORDS</h3>
                 </div>
-                
+                <div id="owned" class="d-flex justify-content-center">
+                  <table class="table table-striped">
+                      <thead>
+                          <tr>
+                              <th scope="col"></th>
+                              <th scope="col">Ranch1</th>
+                              <th scope="col">Ranch2</th>
+                              <th scope="col">Ranch3</th>
+                              <th scope="col">Ranch4</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <th scope="row">Number of cows</th>
+                              <td>35</td>
+                              <td>25</td>
+                              <td>30</td>
+                              <td>40</td>
+                          </tr>
+                          <tr>
+                              <th scope="row">cost of producing
+                                  <br>One litter of milk(Ksh)</th>
+                              <td>25</td>
+                              <td>25</td>
+                              <td>25</td>
+                              <td>25</td>
+                          </tr>
+                          <tr>
+                              <th scope="row">Average milk per ranch</th>
+                              <td>100</td>
+                              <td>120</td>
+                              <td>150</td>
+                              <td>180</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
               </div>
             </div>
             <div class="row p-2 mb-4">
@@ -134,8 +200,249 @@
             <div class="tab-pane fade" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects">
               <div class="container-fluid mb-5 mt-4">
                 <div class="row">
-                  <div class="col-md-12">
-                    <p>Animals profile goes here</p>
+                  <div class="col-md-4 ">
+                    <div class="card mt-2 animalProfileCard">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-8 shadow">
+                            <span>
+                              <img src="./dashboard/portalImages/download (1).jpeg" alt="">
+                            </span>
+                          </div>
+                          <div class="col-md-12 mt-4">
+                            <h3 class="d-flex justify-content-center"><strong>Animal history</strong></h3>
+                            <p class="d-flex justify-content-center text-primary"><small><strong>ANIMAL TAG ID 912</strong></small></p>
+                            <div class="row">
+                              <div class="col-6">
+                                <p><strong>Age:</strong> 5 years</p> 
+                                <p> <strong>Health status: </strong> stable</p>
+                              </div>
+                              <div class="col-6">
+                                <p><strong>Gender:</strong> Female</p>
+                                <p><strong>Weight:</strong> 300kg</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-2 animalProfileCard">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-8 shadow">
+                            <span>
+                              <img src="./dashboard/portalImages/download (1).jpeg" alt="">
+                            </span>
+                          </div>
+                          <div class="col-md-12 mt-4">
+                            <h3 class="d-flex justify-content-center"><strong>Animal history</strong></h3>
+                            <p class="d-flex justify-content-center text-primary"><small><strong>ANIMAL TAG ID 872</strong></small></p>
+                            <div class="row">
+                              <div class="col-6">
+                                <p><strong>Age:</strong> 5 years</p> 
+                                <p> <strong>Health status: </strong> stable</p>
+                              </div>
+                              <div class="col-6">
+                                <p><strong>Gender:</strong> Female</p>
+                                <p><strong>Weight:</strong> 300kg</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-2  animalProfileCard">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-8 shadow">
+                            <span>
+                              <img src="./dashboard/portalImages/download (1).jpeg" alt="">
+                            </span>
+                          </div>
+                          <div class="col-md-12 mt-4">
+                            <h3 class="d-flex justify-content-center"><strong>Animal history</strong></h3>
+                            <p class="d-flex justify-content-center text-primary"><small><strong>ANIMAL TAG ID 378</strong></small></p>
+                            <div class="row">
+                              <div class="col-6">
+                                <p><strong>Age:</strong> 5 years</p> 
+                                <p> <strong>Health status: </strong> stable</p>
+                              </div>
+                              <div class="col-6">
+                                <p><strong>Gender:</strong> Female</p>
+                                <p><strong>Weight:</strong> 300kg</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-2  animalProfileCard">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-8 shadow">
+                            <span>
+                              <img src="./dashboard/portalImages/download (1).jpeg" alt="">
+                            </span>
+                          </div>
+                          <div class="col-md-12 mt-4">
+                            <h3 class="d-flex justify-content-center"><strong>Animal history</strong></h3>
+                            <p class="d-flex justify-content-center text-primary"><small><strong>ANIMAL TAG ID 223</strong></small></p>
+                            <div class="row">
+                              <div class="col-6">
+                                <p><strong>Age:</strong> 5 years</p> 
+                                <p> <strong>Health status: </strong> stable</p>
+                              </div>
+                              <div class="col-6">
+                                <p><strong>Gender:</strong> Female</p>
+                                <p><strong>Weight:</strong> 300kg</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-2  animalProfileCard">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-8 shadow">
+                            <span>
+                              <img src="./dashboard/portalImages/download (1).jpeg" alt="">
+                            </span>
+                          </div>
+                          <div class="col-md-12 mt-4">
+                            <h3 class="d-flex justify-content-center"><strong>Animal history</strong></h3>
+                            <p class="d-flex justify-content-center text-primary"><small><strong>ANIMAL TAG ID 123</strong></small></p>
+                            <div class="row">
+                              <div class="col-6">
+                                <p><strong>Age:</strong> 5 years</p> 
+                                <p> <strong>Health status: </strong> stable</p>
+                              </div>
+                              <div class="col-6">
+                                <p><strong>Gender:</strong> Female</p>
+                                <p><strong>Weight:</strong> 300kg</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-2  animalProfileCard">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-8 shadow">
+                            <span>
+                              <img src="./dashboard/portalImages/download (1).jpeg" alt="">
+                            </span>
+                          </div>
+                          <div class="col-md-12 mt-4">
+                            <h3 class="d-flex justify-content-center"><strong>Animal history</strong></h3>
+                            <p class="d-flex justify-content-center text-primary"><small><strong>ANIMAL TAG ID 533</strong></small></p>
+
+                            <div class="row">
+                              <div class="col-6">
+                                <p><strong>Age:</strong> 5 years</p> 
+                                <p> <strong>Health status: </strong> stable</p>
+                              </div>
+                              <div class="col-6">
+                                <p><strong>Gender:</strong> Female</p>
+                                <p><strong>Weight:</strong> 300kg</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-2  animalProfileCard">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-8 shadow">
+                            <span>
+                              <img src="./dashboard/portalImages/download (1).jpeg" alt="">
+                            </span>
+                          </div>
+                          <div class="col-md-12 mt-4">
+                            <h3 class="d-flex justify-content-center"><strong>Animal history</strong></h3>
+                            <p class="d-flex justify-content-center text-primary"><small><strong>ANIMAL TAG ID 321</strong></small></p>
+                            <div class="row">
+                              <div class="col-6">
+                                <p><strong>Age:</strong> 5 years</p> 
+                                <p> <strong>Health status: </strong> stable</p>
+                              </div>
+                              <div class="col-6">
+                                <p><strong>Gender:</strong> Female</p>
+                                <p><strong>Weight:</strong> 300kg</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-2  animalProfileCard">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-8 shadow">
+                            <span>
+                              <img src="./dashboard/portalImages/download (1).jpeg" alt="">
+                            </span>
+                          </div>
+                          <div class="col-md-12 mt-4">
+                            <h3 class="d-flex justify-content-center"><strong>Animal history</strong></h3>
+                            <p class="d-flex justify-content-center text-primary"><small><strong>ANIMAL TAG ID 312</strong></small></p>
+                            <div class="row">
+                              <div class="col-6">
+                                <p><strong>Age:</strong> 5 years</p> 
+                                <p> <strong>Health status: </strong> stable</p>
+                              </div>
+                              <div class="col-6">
+                                <p><strong>Gender:</strong> Female</p>
+                                <p><strong>Weight:</strong> 300kg</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mt-2  animalProfileCard">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-8 shadow">
+                            <span>
+                              <img src="./dashboard/portalImages/download (1).jpeg" alt="">
+                            </span>
+                          </div>
+                          <div class="col-md-12 mt-4">
+                            <h3 class="d-flex justify-content-center"><strong>Animal history</strong></h3>
+                            <p class="d-flex justify-content-center text-primary"><small><strong>ANIMAL TAG ID 302</strong></small></p>
+                            <div class="row">
+                              <div class="col-6">
+                                <p><strong>Age:</strong> 5 years</p> 
+                                <p> <strong>Health status: </strong> stable</p>
+                              </div>
+                              <div class="col-6">
+                                <p><strong>Gender:</strong> Female</p>
+                                <p><strong>Weight:</strong> 300kg</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div> 
@@ -164,7 +471,22 @@
                      <input type="number" class="form-control" id="validationCustom02" value="" required>
                    
                    </div>
-                 
+                 <div class="col-md-12 mb-3">
+                  <label for="validationCustom02">Select Cow's Tag ID</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Select Tag ID</option>
+                    <option value="912">912</option>
+                    <option value="872">872</option>
+                    <option value="378">378</option>
+                    <option value="223">223</option>
+                    <option value="123">123</option>
+                    <option value="533">533</option>
+                    <option value="321"> 321</option>
+                    <option value="312">312</option>
+                    <option value="302">302</option>
+
+                  </select>
+                 </div>
                  </div>
                  <div class="col-md-12 mb-3">
                    <label for="validationCustom04">Leave a comment</label>
