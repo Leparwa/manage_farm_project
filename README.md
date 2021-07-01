@@ -13,11 +13,10 @@
 
 | Farm | Location | Contacts | Link |
 | ---   |  ---     | ---  | --- |
-| DFMS Farm | Mombasa  | +254 7079 20 000| [Visit](ttps://moringaschool.com/)
-| DFMS Farm  | Nyali  | +254 7079 20 000 | [Visit](ttps://moringaschool.com/)
-| DFMS Farm | Nairiobi  | +254 7079 20 000 | [Visit](ttps://moringaschool.com/)
+| DFMS Farm | Kitale  | +254 7079 20 000| [Visit](ttps://moringaschool.com/)
+| DFMS Farm  | Kikuyu | +254 7079 20 000 | [Visit](ttps://moringaschool.com/)
+| DFMS Farm | Nayuki  | +254 7079 20 000 | [Visit](ttps://moringaschool.com/)
 | DFMS Farm | kisumu  | +254 7079 20 000  |  [Visit](ttps://moringaschool.com/)
-| DFMS Farm | kitale  | +254 7079 20 000 | [Visit](ttps://moringaschool.com/)
 |       |        |       |
 
 ## **Contributors**
@@ -26,7 +25,7 @@
 |    |   |    |    | 
 | ---   |  ---     | ---  | --- |
 | ![Portfolio](images/joseph.jpeg) | ![Portfolio](images/female.jpeg)  | ![Portfolio](images/boy.jpeg))| 
-|  [**Kelvin Leparwa**](https://moringaschool.com/) |  [**Mary Njeri**](https://moringaschool.com/)  |  [**Joseph Nyaga**](https://moringaschool.com/)|  
+|  [**Kelvin Leparwa**](https://moringaschool.com/) |  [**Mary Njeri**](https://moringaschool.com/)  |  [**David Njungo**](https://moringaschool.com/)|  
 
 
 |    |   |    |    | 

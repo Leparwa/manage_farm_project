@@ -1,0 +1,59 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url("../images/l1.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 1200px;
+    padding: 50px;
+
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: auto;
+
+}
+
+.link a {
+
+    padding: 14px 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+
+.link a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+
+}
+
+#underline {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+    text-decoration-thickness: 5px;
+}
+.btbX {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0px;
+    font-size: 20px;
+}
+.btbX a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px 40px;
+    
+}
+
+.btbX a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    
+}
