@@ -23,7 +23,10 @@
         // alert(userResponse);
 		console.log(userResponse)
         localStorage.setItem('user', JSON.stringify(`${firstname}`));
-      
+      alert("Successfully created an account")
+      window.location.href = './login1.html'
+
+
     });
 
 });

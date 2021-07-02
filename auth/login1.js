@@ -8,7 +8,7 @@ $(document).ready(function(){
       var lastname = $("#password").val();
       // alert(userResponse);
     if(firstname===user){
-      window.location.href = 'file:///home/moringa/manage_farm_project/account.html'
+      window.location.href = '../account.html'
 
     }
     else{
