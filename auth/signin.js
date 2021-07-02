@@ -21,7 +21,19 @@ function validate() {
 	return( true );
  }
 
+ $(document).ready(function(){
+    $("#registerButton").click(function(){
+        var firstname = $("#firstname").val();
+        var lastname = $("#lastname").val();
+        var password =$("#password").val();
+        const userResponse={password: password, lastname:lastname,firstname:firstname}
+        // alert(userResponse);
+		console.log(userResponse)
+		localStorage.setItem("user", userResponse);
+      
+    });
 
+});
 
  function register() {
 	 var name = document.myform.newName.value
