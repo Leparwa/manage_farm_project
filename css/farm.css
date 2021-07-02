@@ -4,11 +4,12 @@
 }
 
 body {
-    background-image: url("../images/l1.jpeg");
+    /* background-image: url("../images/l1.jpeg"); */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 1200px;
     padding: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
 
 }
 .container{
@@ -38,6 +39,31 @@ body {
     text-decoration-color: whitesmoke;
     text-decoration-thickness: 5px;
 }
+h2 {
+    padding: 30px;
+    font-size: 80px;
+    font-family: 'Viaoda Libre', cursive;
+    
+}
+span{
+    font-size: 50px;
+    color: red;
+    font-weight: 500;
+    font-family: "Sofia", sans-serif;
+
+}
+.info {
+    display: none;
+  }
+  .info P{
+    color: black;
+    background-color: wheat;
+    padding: 20PX;
+    border-radius: 10PX;
+    font-size: 20PX;
+}
+
+
 .btbX {
     background-color: rgba(0, 0, 0, 0.4);
     border: 0px;
