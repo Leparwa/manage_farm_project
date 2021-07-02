@@ -1,9 +1,22 @@
 
-var jwt = localStorage.getItem("jwt");
-if (jwt == null) {
-  window.location.href = './signin.html'
-}
 
+$(document).ready(function(){
+  $("#loginButton").click(function(){
+  
+    let user =   JSON.parse(localStorage.getItem('user'));
+      var firstname = $("#username").val();
+      var lastname = $("#password").val();
+      // alert(userResponse);
+    if(firstname===user){
+      window.location.href = 'file:///home/moringa/manage_farm_project/account.html'
+
+    }
+    else{
+      alert("sorry your password or username is incorrect")
+    }
+  });
+
+});
 function loadUser() {
   const xhttp = new XMLHttpRequest();
   xhttp.open("POST", "https://www.mecallapi.com/api/auth/user");
@@ -22,7 +35,7 @@ function loadUser() {
   };
 }
 
-loadUser();
+
 
 function logout() {
   localStorage.removeItem("jwt");
